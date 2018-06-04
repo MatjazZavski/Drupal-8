@@ -9,7 +9,7 @@ _core:
 id: kickstarter_local_actions
 theme: kickstarter
 region: content
-weight: -9
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:
