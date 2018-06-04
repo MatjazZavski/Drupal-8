@@ -1,0 +1,22 @@
+uuid: 9d0df05f-2c87-4cc8-8ad4-6bcfaa487615
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kickstarter
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: kickstarter_breadcrumbs
+theme: kickstarter
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

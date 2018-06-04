@@ -1,13 +1,13 @@
-uuid: 968f8582-4188-4715-b1d3-31eeac052225
+uuid: 68fc7383-3bc2-4ee9-8cad-76023eac0ef3
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
+    - kickstarter
 _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
-id: bartik_local_actions
-theme: bartik
+id: kickstarter_local_actions
+theme: kickstarter
 region: content
 weight: -9
 provider: null

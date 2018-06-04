@@ -1,0 +1,28 @@
+uuid: 9de6f3f1-68f9-426e-beeb-43710abafd20
+langcode: en
+status: true
+dependencies:
+  module:
+    - ad_general
+    - node
+  theme:
+    - kickstarter
+id: kickstarter_sendemail
+theme: kickstarter
+region: header
+weight: 0
+provider: null
+plugin: send_email
+settings:
+  id: send_email
+  label: 'Send Email'
+  provider: ad_general
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

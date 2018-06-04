@@ -1,0 +1,33 @@
+uuid: ba9e3f52-750f-416a-9940-30bb03d9c1dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.company
+  module:
+    - node
+    - views
+  theme:
+    - kickstarter
+id: kickstarter_views_block__company_block_1
+theme: kickstarter
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:company-block_1'
+settings:
+  id: 'views_block:company-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      company: company
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

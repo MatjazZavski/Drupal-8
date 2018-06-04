@@ -1,0 +1,22 @@
+uuid: 99075a0d-f830-43dc-8dc9-c47e509624dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kickstarter
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: kickstarter_content
+theme: kickstarter
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

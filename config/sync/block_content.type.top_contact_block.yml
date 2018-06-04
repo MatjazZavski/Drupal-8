@@ -1,0 +1,8 @@
+uuid: 4dbd0a00-689f-4c21-a958-eab89621eef9
+langcode: en
+status: true
+dependencies: {  }
+id: top_contact_block
+label: 'Top contact block'
+revision: 0
+description: ''

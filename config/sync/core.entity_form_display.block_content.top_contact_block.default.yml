@@ -1,0 +1,39 @@
+uuid: 7301f93b-584b-4355-a44d-d5ba70d0290d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.top_contact_block
+    - field.field.block_content.top_contact_block.field_contact_email
+    - field.field.block_content.top_contact_block.field_contact_phone_number
+  module:
+    - telephone
+id: block_content.top_contact_block.default
+targetEntityType: block_content
+bundle: top_contact_block
+mode: default
+content:
+  field_contact_email:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_contact_phone_number:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

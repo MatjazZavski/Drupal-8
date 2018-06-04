@@ -1,0 +1,28 @@
+uuid: eec22456-cced-45af-9a36-0afd06bf453e
+langcode: en
+status: true
+dependencies:
+  module:
+    - ad_general
+    - node
+  theme:
+    - bartik
+id: sendemail
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: send_email
+settings:
+  id: send_email
+  label: 'Send Email'
+  provider: ad_general
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

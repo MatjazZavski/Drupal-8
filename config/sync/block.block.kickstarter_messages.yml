@@ -1,0 +1,22 @@
+uuid: 4c00ba55-30ec-4b39-854e-7e75e4430b79
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kickstarter
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: kickstarter_messages
+theme: kickstarter
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

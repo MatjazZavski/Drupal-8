@@ -1,0 +1,19 @@
+uuid: c8be091d-b7e0-4834-a954-a7b06a072eeb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.top_contact_block
+    - field.storage.block_content.field_contact_email
+id: block_content.top_contact_block.field_contact_email
+field_name: field_contact_email
+entity_type: block_content
+bundle: top_contact_block
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

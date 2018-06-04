@@ -1,16 +1,16 @@
-uuid: fe891e3d-3ca6-44cc-9525-1255103c2f7c
+uuid: fa11fc93-df29-45b0-bbfd-7b5ca30b2bf6
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
+    - kickstarter
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
-id: bartik_powered
-theme: bartik
-region: footer_fifth
+id: kickstarter_powered
+theme: kickstarter
+region: header
 weight: -9
 provider: null
 plugin: system_powered_by_block
