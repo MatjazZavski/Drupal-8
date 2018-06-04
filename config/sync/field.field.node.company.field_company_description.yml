@@ -1,0 +1,21 @@
+uuid: a12cacdc-2718-4040-8163-2f68e80d6297
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_description
+    - node.type.company
+  module:
+    - text
+id: node.company.field_company_description
+field_name: field_company_description
+entity_type: node
+bundle: company
+label: Description
+description: 'Company : Description'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

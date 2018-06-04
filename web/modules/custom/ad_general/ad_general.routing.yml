@@ -1,0 +1,24 @@
+ad_general.counter_controller_count:
+  path: '/count/{first}/{second}'
+  defaults:
+    _controller: '\Drupal\ad_general\Controller\CounterController::count'
+    _title: 'count'
+  requirements:
+    _permission: 'access content'
+
+ad_general.counter_controller_result:
+  path: '/math/{result}'
+  defaults:
+    _controller: '\Drupal\ad_general\Controller\CounterController::result'
+    _title: 'Result'
+  requirements:
+    _permission: 'access content'
+
+ad_general.math_operation_form:
+  path: '/math'
+  defaults:
+    _form: '\Drupal\ad_general\Form\MathOperationForm'
+    _title: 'MathOperationForm'
+  requirements:
+    _access: 'TRUE'
+  

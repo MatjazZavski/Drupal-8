@@ -1,0 +1,9 @@
+uuid: 65260078-e135-4ee3-a171-c9b01aedf156
+langcode: en
+status: true
+dependencies: {  }
+name: Equipment
+vid: equipment
+description: 'Equipment that can be found on a list of location offers.'
+hierarchy: 0
+weight: 0

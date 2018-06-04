@@ -1,0 +1,14 @@
+uuid: 0a530b50-2035-4169-8473-67f1dc51d2b0
+langcode: en
+status: true
+dependencies: {  }
+name: location_260x275_
+label: 'Location (260x275)'
+effects:
+  beaf74d5-e0b8-4399-868d-f872de5350e7:
+    uuid: beaf74d5-e0b8-4399-868d-f872de5350e7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 260
+      height: 275

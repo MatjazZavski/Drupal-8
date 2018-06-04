@@ -1,0 +1,21 @@
+uuid: c7c53675-d5c1-4332-862b-4e52ea047f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location_description
+    - node.type.location
+  module:
+    - text
+id: node.location.field_location_description
+field_name: field_location_description
+entity_type: node
+bundle: location
+label: Description
+description: 'Location : Description'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

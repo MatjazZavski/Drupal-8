@@ -1,0 +1,18 @@
+uuid: 684596e0-bdc9-4e29-ab81-5037a44b9bd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Company
+type: company
+description: 'Use companies for content describing a Company.  '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

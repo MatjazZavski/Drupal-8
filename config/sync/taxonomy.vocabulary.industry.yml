@@ -1,0 +1,9 @@
+uuid: e306dccb-8734-4388-9478-b1c03a06ea6b
+langcode: en
+status: true
+dependencies: {  }
+name: Industry
+vid: industry
+description: 'Types of Industry that individual companies belong to.'
+hierarchy: 0
+weight: 0

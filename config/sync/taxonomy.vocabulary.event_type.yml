@@ -1,0 +1,9 @@
+uuid: badf1790-6f25-487c-abe2-4229d2924d87
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event type'
+vid: event_type
+description: 'Events that will take place.'
+hierarchy: 0
+weight: 0

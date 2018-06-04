@@ -1,0 +1,21 @@
+uuid: 1a198f43-ead7-4814-8c57-2be084c823d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location_email
+    - node.type.location
+id: node.location.field_location_email
+field_name: field_location_email
+entity_type: node
+bundle: location
+label: Email
+description: 'Location : Contact email'
+required: true
+translatable: false
+default_value:
+  -
+    value: name.lastname@location.com
+default_value_callback: ''
+settings: {  }
+field_type: email

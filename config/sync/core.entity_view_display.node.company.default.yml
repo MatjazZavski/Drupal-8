@@ -1,0 +1,79 @@
+uuid: b074f4e8-bb20-41d2-8d17-d6eae97ed210
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.company.field_company_address
+    - field.field.node.company.field_company_description
+    - field.field.node.company.field_company_email
+    - field.field.node.company.field_company_logo
+    - field.field.node.company.field_company_phone
+    - field.field.node.company.field_company_website
+    - field.field.node.company.field_compnay_industry
+    - node.type.company
+  module:
+    - address
+    - link
+    - text
+    - user
+id: node.company.default
+targetEntityType: node
+bundle: company
+mode: default
+content:
+  field_company_address:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_company_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_company_email:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_company_phone:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_company_website:
+    weight: 103
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_compnay_industry:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_company_logo: true

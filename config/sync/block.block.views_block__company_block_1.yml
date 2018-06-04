@@ -1,0 +1,33 @@
+uuid: 8862c7a6-6110-42c4-aad3-860a69c1b1df
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.company
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__company_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:company-block_1'
+settings:
+  id: 'views_block:company-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      company: company
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

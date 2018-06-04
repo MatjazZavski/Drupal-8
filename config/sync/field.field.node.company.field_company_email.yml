@@ -1,0 +1,19 @@
+uuid: fae12a04-177c-412d-abe1-5c4d2e8d5456
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_email
+    - node.type.company
+id: node.company.field_company_email
+field_name: field_company_email
+entity_type: node
+bundle: company
+label: Email
+description: 'Company : Contact email'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

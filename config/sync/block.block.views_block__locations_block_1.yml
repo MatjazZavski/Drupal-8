@@ -1,0 +1,33 @@
+uuid: 8ac8dead-ffe2-4bad-9cba-39834209a418
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.locations
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__locations_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:locations-block_1'
+settings:
+  id: 'views_block:locations-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      location: location
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

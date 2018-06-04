@@ -1,0 +1,14 @@
+uuid: 111f073b-c987-46fd-819f-056d2bd4b9cd
+langcode: en
+status: true
+dependencies: {  }
+name: event_360x380_
+label: 'Event (360x380)'
+effects:
+  59e6e9ad-d8ab-4700-b4fb-c0557ae9c2e4:
+    uuid: 59e6e9ad-d8ab-4700-b4fb-c0557ae9c2e4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 380
